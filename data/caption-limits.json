@@ -1,0 +1,76 @@
+[
+  {
+    "network": "instagram",
+    "name": "Instagram",
+    "maxCharacters": 2200,
+    "counting": "default",
+    "visibleBeforeMore": 125,
+    "maxHashtags": 5,
+    "tool": "https://mydropai.com/tools/instagram-character-counter/"
+  },
+  {
+    "network": "tiktok",
+    "name": "TikTok",
+    "maxCharacters": 2200,
+    "counting": "utf16",
+    "tool": "https://mydropai.com/tools/tiktok-character-counter/"
+  },
+  {
+    "network": "linkedin",
+    "name": "LinkedIn",
+    "maxCharacters": 3000,
+    "counting": "default",
+    "visibleBeforeMore": 210,
+    "tool": "https://mydropai.com/tools/linkedin-character-counter/"
+  },
+  {
+    "network": "x",
+    "name": "X",
+    "maxCharacters": 280,
+    "counting": "x",
+    "tool": "https://mydropai.com/tools/twitter-character-counter/"
+  },
+  {
+    "network": "facebook",
+    "name": "Facebook",
+    "maxCharacters": 63206,
+    "counting": "default",
+    "tool": "https://mydropai.com/tools/facebook-character-counter/"
+  },
+  {
+    "network": "threads",
+    "name": "Threads",
+    "maxCharacters": 500,
+    "counting": "default",
+    "maxHashtags": 1,
+    "tool": "https://mydropai.com/tools/threads-character-counter/"
+  },
+  {
+    "network": "bluesky",
+    "name": "Bluesky",
+    "maxCharacters": 300,
+    "counting": "default",
+    "tool": "https://mydropai.com/tools/bluesky-character-counter/"
+  },
+  {
+    "network": "youtube",
+    "name": "YouTube",
+    "maxCharacters": 5000,
+    "counting": "default",
+    "tool": "https://mydropai.com/tools/youtube-description-character-counter/"
+  },
+  {
+    "network": "pinterest",
+    "name": "Pinterest",
+    "maxCharacters": 800,
+    "counting": "default",
+    "tool": "https://mydropai.com/tools/pinterest-character-counter/"
+  },
+  {
+    "network": "googleBusiness",
+    "name": "Google Business Profile",
+    "maxCharacters": 1500,
+    "counting": "default",
+    "tool": "https://mydropai.com/tools/google-business-profile-character-counter/"
+  }
+]

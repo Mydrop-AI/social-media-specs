@@ -1,0 +1,388 @@
+[
+  {
+    "id": "ig-portrait",
+    "network": "instagram",
+    "format": "Portrait post",
+    "width": 1080,
+    "height": 1350,
+    "ratio": "4:5",
+    "note": "Best feed size. Instagram's publishing API takes 4:5 to 1.91:1.",
+    "tool": "https://mydropai.com/tools/instagram-image-resizer/"
+  },
+  {
+    "id": "ig-tall",
+    "network": "instagram",
+    "format": "Tall portrait",
+    "width": 1080,
+    "height": 1440,
+    "ratio": "3:4",
+    "note": "Fills the profile grid since 2025. Tools that post through the API may crop it to 4:5.",
+    "tool": "https://mydropai.com/tools/instagram-image-resizer/"
+  },
+  {
+    "id": "ig-square",
+    "network": "instagram",
+    "format": "Square post",
+    "width": 1080,
+    "height": 1080,
+    "ratio": "1:1",
+    "note": "Shows whole in the feed; the 3:4 grid trims its sides.",
+    "tool": "https://mydropai.com/tools/instagram-image-resizer/"
+  },
+  {
+    "id": "ig-landscape",
+    "network": "instagram",
+    "format": "Landscape post",
+    "width": 1080,
+    "height": 566,
+    "ratio": "1.91:1",
+    "note": "The smallest image in the feed.",
+    "tool": "https://mydropai.com/tools/instagram-image-resizer/"
+  },
+  {
+    "id": "ig-story",
+    "network": "instagram",
+    "format": "Story or Reel",
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16",
+    "safeZone": {
+      "top": 0.14,
+      "bottom": 0.35,
+      "left": 0.06,
+      "right": 0.06
+    },
+    "note": "Stories and Reels. Keep text out of the top 14%, the bottom 35% and 6% on each side.",
+    "tool": "https://mydropai.com/tools/instagram-image-resizer/"
+  },
+  {
+    "id": "ig-profile",
+    "network": "instagram",
+    "format": "Profile picture",
+    "width": 320,
+    "height": 320,
+    "ratio": "1:1",
+    "note": "Shown as a circle.",
+    "tool": "https://mydropai.com/tools/instagram-image-resizer/"
+  },
+  {
+    "id": "fb-portrait",
+    "network": "facebook",
+    "format": "Portrait post",
+    "width": 1080,
+    "height": 1350,
+    "ratio": "4:5",
+    "note": "Recommended for the feed; 1.91:1 to 4:5 is supported.",
+    "tool": "https://mydropai.com/tools/facebook-image-resizer/"
+  },
+  {
+    "id": "fb-square",
+    "network": "facebook",
+    "format": "Square post",
+    "width": 1080,
+    "height": 1080,
+    "ratio": "1:1",
+    "note": "Shows whole in the feed.",
+    "tool": "https://mydropai.com/tools/facebook-image-resizer/"
+  },
+  {
+    "id": "fb-link",
+    "network": "facebook",
+    "format": "Link preview",
+    "width": 1200,
+    "height": 630,
+    "ratio": "1.91:1",
+    "note": "Link previews. 600 × 315 is the minimum for the large card.",
+    "tool": "https://mydropai.com/tools/facebook-image-resizer/"
+  },
+  {
+    "id": "fb-story",
+    "network": "facebook",
+    "format": "Story or Reel",
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16",
+    "safeZone": {
+      "top": 0.14,
+      "bottom": 0.35,
+      "left": 0.06,
+      "right": 0.06
+    },
+    "note": "Stories and Reels, with the same safe zone as Instagram.",
+    "tool": "https://mydropai.com/tools/facebook-image-resizer/"
+  },
+  {
+    "id": "fb-cover",
+    "network": "facebook",
+    "format": "Page cover",
+    "width": 851,
+    "height": 315,
+    "ratio": "2.7:1",
+    "note": "The size Facebook's help gives. The cover shows wider on desktop and shorter on phones: keep text in the middle.",
+    "tool": "https://mydropai.com/tools/facebook-image-resizer/"
+  },
+  {
+    "id": "fb-profile",
+    "network": "facebook",
+    "format": "Profile picture",
+    "width": 320,
+    "height": 320,
+    "ratio": "1:1",
+    "note": "Shown as a circle.",
+    "tool": "https://mydropai.com/tools/facebook-image-resizer/"
+  },
+  {
+    "id": "li-square",
+    "network": "linkedin",
+    "format": "Square post",
+    "width": 1080,
+    "height": 1080,
+    "ratio": "1:1",
+    "note": "Posts take 3:1 to 4:5, up to 20 photos, 5 MB each.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "li-portrait",
+    "network": "linkedin",
+    "format": "Portrait post",
+    "width": 1080,
+    "height": 1350,
+    "ratio": "4:5",
+    "note": "The tallest post image LinkedIn shows uncropped.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "li-landscape",
+    "network": "linkedin",
+    "format": "Landscape or link",
+    "width": 1200,
+    "height": 627,
+    "ratio": "1.91:1",
+    "note": "Link previews and landscape posts.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "li-banner",
+    "network": "linkedin",
+    "format": "Profile banner",
+    "width": 1584,
+    "height": 396,
+    "ratio": "4:1",
+    "note": "Personal profile background, up to 8 MB.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "li-company",
+    "network": "linkedin",
+    "format": "Company Page cover",
+    "width": 1512,
+    "height": 256,
+    "ratio": "5.9:1",
+    "note": "Company Page cover, up to 3 MB.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "li-article",
+    "network": "linkedin",
+    "format": "Article cover",
+    "width": 1920,
+    "height": 1080,
+    "ratio": "16:9",
+    "note": "Article and newsletter cover.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "li-profile",
+    "network": "linkedin",
+    "format": "Profile photo or logo",
+    "width": 400,
+    "height": 400,
+    "ratio": "1:1",
+    "note": "Profile photo or Company Page logo.",
+    "tool": "https://mydropai.com/tools/linkedin-image-resizer/"
+  },
+  {
+    "id": "x-landscape",
+    "network": "x",
+    "format": "Landscape post",
+    "width": 1600,
+    "height": 900,
+    "ratio": "16:9",
+    "note": "Standard ratios show uncropped on phones; very tall or wide images are centre-cropped.",
+    "tool": "https://mydropai.com/tools/twitter-image-resizer/"
+  },
+  {
+    "id": "x-square",
+    "network": "x",
+    "format": "Square post",
+    "width": 1080,
+    "height": 1080,
+    "ratio": "1:1",
+    "note": "Shows whole in the feed.",
+    "tool": "https://mydropai.com/tools/twitter-image-resizer/"
+  },
+  {
+    "id": "x-portrait",
+    "network": "x",
+    "format": "Portrait post",
+    "width": 1080,
+    "height": 1350,
+    "ratio": "4:5",
+    "note": "Shows whole in the feed on phones.",
+    "tool": "https://mydropai.com/tools/twitter-image-resizer/"
+  },
+  {
+    "id": "x-header",
+    "network": "x",
+    "format": "Header",
+    "width": 1500,
+    "height": 500,
+    "ratio": "3:1",
+    "note": "About 60 px at the top and bottom may be cut.",
+    "tool": "https://mydropai.com/tools/twitter-image-resizer/"
+  },
+  {
+    "id": "x-profile",
+    "network": "x",
+    "format": "Profile picture",
+    "width": 400,
+    "height": 400,
+    "ratio": "1:1",
+    "note": "Shown as a circle, up to 2 MB.",
+    "tool": "https://mydropai.com/tools/twitter-image-resizer/"
+  },
+  {
+    "id": "tt-vertical",
+    "network": "tiktok",
+    "format": "Video or photo",
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16",
+    "note": "Videos and photo mode, up to 35 photos.",
+    "tool": "https://mydropai.com/tools/tiktok-image-resizer/"
+  },
+  {
+    "id": "yt-thumbnail",
+    "network": "youtube",
+    "format": "Thumbnail",
+    "width": 1280,
+    "height": 720,
+    "ratio": "16:9",
+    "note": "Works everywhere under 2 MB. YouTube now takes up to 3840 × 2160 and 50 MB on desktop.",
+    "tool": "https://mydropai.com/tools/youtube-image-resizer/"
+  },
+  {
+    "id": "yt-banner",
+    "network": "youtube",
+    "format": "Channel banner",
+    "width": 2560,
+    "height": 1440,
+    "ratio": "16:9",
+    "visibleEverywhere": {
+      "width": 1546,
+      "height": 423
+    },
+    "note": "Keep text and logos inside the central 1546 × 423, the part every screen shows.",
+    "tool": "https://mydropai.com/tools/youtube-image-resizer/"
+  },
+  {
+    "id": "yt-shorts",
+    "network": "youtube",
+    "format": "Shorts",
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16",
+    "note": "Vertical video, up to 3 minutes.",
+    "tool": "https://mydropai.com/tools/youtube-image-resizer/"
+  },
+  {
+    "id": "pin-standard",
+    "network": "pinterest",
+    "format": "Standard pin",
+    "width": 1000,
+    "height": 1500,
+    "ratio": "2:3",
+    "note": "Anything taller than 2:3 may be cut off in the feed.",
+    "tool": "https://mydropai.com/tools/pinterest-image-resizer/"
+  },
+  {
+    "id": "pin-square",
+    "network": "pinterest",
+    "format": "Square pin",
+    "width": 1000,
+    "height": 1000,
+    "ratio": "1:1",
+    "note": "Supported, but takes less room than 2:3.",
+    "tool": "https://mydropai.com/tools/pinterest-image-resizer/"
+  },
+  {
+    "id": "th-portrait",
+    "network": "threads",
+    "format": "Portrait post",
+    "width": 1440,
+    "height": 1920,
+    "ratio": "3:4",
+    "note": "Threads shows 3:4 in the feed.",
+    "tool": "https://mydropai.com/tools/threads-image-resizer/"
+  },
+  {
+    "id": "th-square",
+    "network": "threads",
+    "format": "Square post",
+    "width": 1080,
+    "height": 1080,
+    "ratio": "1:1",
+    "note": "Shows whole in the feed.",
+    "tool": "https://mydropai.com/tools/threads-image-resizer/"
+  },
+  {
+    "id": "bs-landscape",
+    "network": "bluesky",
+    "format": "Post image",
+    "width": 1600,
+    "height": 900,
+    "ratio": "16:9",
+    "note": "Any ratio works. Up to 4 images per post, under 2 MB each.",
+    "tool": "https://mydropai.com/tools/bluesky-image-resizer/"
+  },
+  {
+    "id": "bs-banner",
+    "network": "bluesky",
+    "format": "Profile banner",
+    "width": 1500,
+    "height": 500,
+    "ratio": "3:1",
+    "note": "Profile banner, under 1 MB.",
+    "tool": "https://mydropai.com/tools/bluesky-image-resizer/"
+  },
+  {
+    "id": "bs-avatar",
+    "network": "bluesky",
+    "format": "Profile picture",
+    "width": 1000,
+    "height": 1000,
+    "ratio": "1:1",
+    "note": "Profile picture, under 1 MB.",
+    "tool": "https://mydropai.com/tools/bluesky-image-resizer/"
+  },
+  {
+    "id": "gbp-photo",
+    "network": "googleBusiness",
+    "format": "Photo or logo",
+    "width": 720,
+    "height": 720,
+    "ratio": "1:1",
+    "note": "Photos, cover and logo: 250 × 250 minimum, 10 KB to 5 MB.",
+    "tool": "https://mydropai.com/tools/google-business-profile-image-resizer/"
+  },
+  {
+    "id": "gbp-post",
+    "network": "googleBusiness",
+    "format": "Post image",
+    "width": 1200,
+    "height": 900,
+    "ratio": "4:3",
+    "note": "Google publishes no post size; 4:3 is the common choice.",
+    "tool": "https://mydropai.com/tools/google-business-profile-image-resizer/"
+  }
+]

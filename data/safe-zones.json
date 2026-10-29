@@ -1,0 +1,124 @@
+[
+  {
+    "id": "instagramReels",
+    "format": "Instagram Reels",
+    "frame": {
+      "width": 1080,
+      "height": 1920
+    },
+    "margins": {
+      "top": 250,
+      "bottom": 420,
+      "left": 65,
+      "right": 140
+    },
+    "safeArea": {
+      "width": 875,
+      "height": 1250
+    },
+    "source": {
+      "name": "Mydrop size guide",
+      "url": "https://mydropai.com/post/social-media-image-and-video-sizes-2026/"
+    },
+    "asAd": {
+      "margins": {
+        "top": 269,
+        "bottom": 672,
+        "left": 65,
+        "right": 140
+      },
+      "source": {
+        "name": "Meta Ads Guide",
+        "url": "https://www.facebook.com/business/ads-guide/update/video/instagram-reels"
+      }
+    }
+  },
+  {
+    "id": "instagramStories",
+    "format": "Instagram Stories",
+    "frame": {
+      "width": 1080,
+      "height": 1920
+    },
+    "margins": {
+      "top": 269,
+      "bottom": 672,
+      "left": 65,
+      "right": 65
+    },
+    "safeArea": {
+      "width": 950,
+      "height": 979
+    },
+    "source": {
+      "name": "Meta Ads Guide",
+      "url": "https://www.facebook.com/business/ads-guide/update/video/instagram-reels"
+    }
+  },
+  {
+    "id": "tiktok",
+    "format": "TikTok",
+    "frame": {
+      "width": 1080,
+      "height": 1920
+    },
+    "margins": {
+      "top": 130,
+      "bottom": 350,
+      "left": 40,
+      "right": 180
+    },
+    "safeArea": {
+      "width": 860,
+      "height": 1440
+    },
+    "source": {
+      "name": "Mydrop size guide",
+      "url": "https://mydropai.com/post/social-media-image-and-video-sizes-2026/"
+    }
+  },
+  {
+    "id": "youtubeShorts",
+    "format": "YouTube Shorts",
+    "frame": {
+      "width": 1080,
+      "height": 1920
+    },
+    "margins": {
+      "top": 288,
+      "bottom": 672,
+      "left": 48,
+      "right": 192
+    },
+    "safeArea": {
+      "width": 840,
+      "height": 960
+    },
+    "source": {
+      "name": "Google Ads Help",
+      "url": "https://support.google.com/google-ads/answer/9128498"
+    }
+  },
+  {
+    "id": "facebook",
+    "format": "Facebook Reels & Stories",
+    "frame": {
+      "width": 1080,
+      "height": 1920
+    },
+    "margins": {
+      "top": 269,
+      "bottom": 672,
+      "left": 65,
+      "right": 140
+    },
+    "safeArea": {
+      "width": 875,
+      "height": 979
+    },
+    "source": {
+      "name": "Meta Ads Guide",
+      "url": "https://www.facebook.com/business/ads-guide/update/video/instagram-reels"
+    }
+  }
+]
